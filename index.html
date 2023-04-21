@@ -14,30 +14,48 @@
         text-transform: uppercase;
       }
       .username {
-        float: left;
+        background-color: greenyellow;
+        float: right;
         width: 300px;
         height: 300px;
       }
       .dob {
+        background-color: bisque;
         float: right;
         width: 300px;
         height: 300px;
       }
-      .userpic {
+      .userabout {
+        background-color: violet;
         float: right;
         width: 300px;
         height: 300px;
       }
-      ul > * {
-        background-color: red;
+      ul > li {
+        list-style: none;
+        background-color: aqua;
       }
     </style>
   </head>
   <body>
     <ul>
-      <li class="userpic"></li>
-      <li class="username">Pham Gia Khanh</li>
-      <li class="dob">09101998</li>
+      <li class="userabout">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim qui
+        consectetur fuga suscipit aspernatur, consequatur accusantium ut libero
+        sint adipisci, doloribus, totam perferendis recusandae fugiat velit
+        repellendus delectus in.
+      </li>
+      <li class="username">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nulla
+        doloremque optio soluta sed perspiciatis explicabo commodi dolor
+        deleniti debitis quia voluptatem sit quae, ab voluptatum. Hic adipisci
+        cum cumque?
+      </li>
+      <li class="dob">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit aut
+        voluptas officiis? Alias saepe vero omnis nisi consequuntur laboriosam
+        pariatur et eum, cum, nobis odio cumque quia expedita ea excepturi.
+      </li>
     </ul>
   </body>
   <script>
@@ -45,6 +63,9 @@
       total = a + b;
       return total;
     }
-    let a = [1, 2, 3, 4, 5, 6];
+    const myArray = [1, 2, 3, 4, 5, 6];
+    for (let i = myArray.length - 1; i >= 0; i--) {
+      console.log(myArray[i]);
+    }
   </script>
 </html>
