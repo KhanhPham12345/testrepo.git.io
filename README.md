@@ -1,1 +1,1 @@
-# testrepo.git.io
+# testrepo.github.io
